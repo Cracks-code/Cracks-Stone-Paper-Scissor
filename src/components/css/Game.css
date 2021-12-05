@@ -1,0 +1,130 @@
+.Choose-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.detail-div{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.style2-text{
+  font-size: 1.5rem;
+  font-family: monospace;
+  font-variant: all-small-caps;
+}
+
+.d-image-div{
+  border: 1px solid;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 10%;
+  background: #212529;
+}
+
+.d-image-img{
+  width: 15vw;
+  filter: invert(1);
+}
+
+.detail-box{
+  width: 17vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+.match-info-div{
+  outline: 1px solid green;
+  width: 15vw;
+  text-align: center;
+  background: #00800047;
+  color: green;
+  border-radius: 0.45rem;
+}
+
+#round-spa{
+  font-variant: all-small-caps;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.style-text{
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: monospace;
+}
+
+.score-text{
+  font-weight: bolder;
+  font-family: system-ui;
+  font-size: 1.6rem;
+}
+
+.score-div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.game-div h1 {
+  font-family: sans-serif;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.choose-btn-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.5rem;
+}
+
+.ico {
+  width: 1.5rem;
+}
+
+.ch-btn {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.score-detail-div {
+  position: absolute;
+  top: 4.2rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30vw;
+  margin-left: 3rem;
+  height: 50vh;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  background: white;
+}
+
+#win-los-badge {
+  width: 10rem;
+  color: "red";
+  background: #ffd1d5ff;
+  outline: 1px solid red;
+}

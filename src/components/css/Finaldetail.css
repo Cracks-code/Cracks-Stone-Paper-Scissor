@@ -1,0 +1,62 @@
+.main-Final-div{
+    display: flex;
+    background: #00000052;
+    backdrop-filter: blur(1px);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-family: system-ui;
+    font-variant: petite-caps;
+}
+
+.Final-d-div{
+    width: 65vw;
+    display: flex;
+    height: 50vh;
+    border-radius: 11px;
+    background: #ffffff;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.detail-d{
+    display: flex;
+    width: 100%;
+    margin-top: 2vw;
+    flex-direction: column;
+    height: auto;
+    font-feature-settings: "smcp";
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn-d{
+    /* margin-right: 2rem; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#totalround-p{
+    font-size: 2.5vw;
+    font-family: monospace;
+    font-variant: small-caps;
+}
+
+#score-p{
+    font-size: 2.3vw;
+    font-family: monospace;
+    font-feature-settings: "smcp", "c2sc";
+    font-variant: all-small-caps;
+}

@@ -1,0 +1,9 @@
+.navbar-m{
+    border-radius: 12px;
+    background: linear-gradient(86deg, #FFFFFFBF, #000000);
+}
+.brand-m{
+    color: rgba(0,0,0,.9);
+    font-weight: 600;
+    font-family: sans-serif;
+}
