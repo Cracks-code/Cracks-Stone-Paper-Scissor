@@ -10,7 +10,7 @@ function Gamecontrol() {
     const { WlDtext, onClick, Replay, Round, User_score, Ai_score, Drow_score, User_choose, Ai_choose } = context;
     return (
         <>
-            {Round === 0 ? <div className="container mb-4"><h1 style={{fontFamily:"cursive"}} className="text-center text-muted">Choose Any One</h1></div> : <><div className="score-div">
+        <div className="score-div">
                 <div className="my-4 text-center">
                     <span className="text-muted style-text">Win</span>
                     <br />
@@ -49,7 +49,7 @@ function Gamecontrol() {
                         </div>
                         <span className="text-muted style2-text">{Ai_choose}</span>
                     </div>
-                </div></>}
+                </div>
             <div className="Choose-div">
                 <div className="choose-btn-div">
                     <button onClick={() => onClick("rock")} name="Rock" className="btn btn-warning ch-btn ">
